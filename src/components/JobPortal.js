@@ -44,7 +44,9 @@ class JobPortal extends Component {
 
     changeHandler = (e) => {
         this.setState({searchText : e.target.value});
-        this.handleSearch();
+        setTimeout(() => {
+            this.handleSearch();
+          }, 500);
     }
     
 
