@@ -46,6 +46,7 @@ class JobPortal extends Component {
         this.setState({searchText : e.target.value});
         this.handleSearch();
     }
+    
 
     render() { 
         console.log(this.state.items, 'RENDER')
